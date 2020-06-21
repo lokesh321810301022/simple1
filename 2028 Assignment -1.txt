@@ -1,0 +1,66 @@
+#1.Write a python program to design simple calculator for the operators 
+a=int(input('enter val1:'))
+b=int(input('enter val2:'))
+op=input('enter operator')
+if op == '+':
+    print(a+b)
+elif op == '-':
+    print(a-b)
+elif op == '*':
+    print(a*b)
+elif op == '/':
+    print(a/b)
+elif op == '%':
+    print(a%b)
+elif op == '**':
+    print(a**b)
+elif op == '//':
+    print(a//b)
+else:
+    print('enter valid operator')
+
+
+#2.Write a python program to calculate simple interest.
+p=int(input('enter principle:'))
+t=int(input('enter time:'))
+r=float(input('enter rate:'))
+si=((p*t*r)/100)
+print('simple interest:',si)
+
+
+#3.Write a python program to calculate area of a circle.
+r=int(input('enter radius:'))
+pi=3.14
+print('Area of circle:',(pi*r**2))
+
+#4.Write a python program to calculate area of a triangle.
+b=int(input('enter base:'))
+h=int(input('enter height:'))
+print('Area of triangle',0.5*b*h)
+
+#5.Write a python program to temperature in Celsius to Fahrenheit.
+c=int(input('enter temparature in celsius:'))
+print('temparuture in fahrenheit=',((c*9/5)+32),'F')
+
+#6.Write a python program to calculate area of rectangle.
+l=int(input('enter length:'))
+b=int(input('enter breath:'))
+print('Area of rectangle=', l*b)
+
+#7.Write a python program to calculate perimeter of a square.
+s=int(input('enter side:'))
+print('Perimeter of square:',4*s)
+
+#8.Write a python program to calculate circumference of a circle.
+r=int(input('enter radius:'))
+pi=3.14
+print('Circumference of circle:',2*pi*r)
+
+#9.Write a python program to swap two numbers.
+a=int(input('enter val1:'))
+b=int(input('enter val2:'))
+print('Before swapping a=',a,'b=',b)
+a=a+b
+b=a-b
+a=a-b
+print('After swapping a=',a,'b=',b)
